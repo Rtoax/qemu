@@ -20,3 +20,10 @@ GTAGS
 *.swp
 *.patch
 *.gcov
+
+# for libcareplus patch
+.lpmaketmp/
+lpmake/
+patchroot/
+roms/sgabios/
+*.upatch

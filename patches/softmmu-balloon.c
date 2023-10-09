@@ -81,7 +81,7 @@ BalloonInfo *qmp_query_balloon(Error **errp)
 {
     BalloonInfo *info;
 
-    info_report("# virsh dommemstat called #");
+    info_report("# virsh dommemstat called PATCHED #");
 
     if (!have_balloon(errp)) {
         return NULL;
